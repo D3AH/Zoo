@@ -16,6 +16,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AnimalAddComponent } from './components/animals/animal-add/animal-add.component';
 import { UserAddComponent } from './components/users/user-add/user-add.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AddCarerComponent } from './components/animals/add-carer/add-carer.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ListAnimalsUsersComponent,
     NavbarComponent,
     AnimalAddComponent,
-    UserAddComponent
+    UserAddComponent,
+    AddCarerComponent
   ],
   imports: [
     BrowserModule,

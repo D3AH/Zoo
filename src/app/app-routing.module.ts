@@ -7,6 +7,7 @@ import { UserAddComponent } from './components/users/user-add/user-add.component
 const routes: Routes = [
   { path: '', component: ListAnimalsUsersComponent },
   { path: 'animals/add', component: AnimalAddComponent },
+  { path: 'animals/add-carer/:id', component: AnimalAddComponent },
   { path: 'users/add', component: UserAddComponent }
 ];
 
