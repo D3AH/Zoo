@@ -1,13 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { AnimalRestService } from './services/animal-rest.service';
-import { UserRestService } from './services/user-rest.service';
+import { AnimalRestService } from '../services/animal-rest.service';
+import { UserRestService } from '../services/user-rest.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-list-animals-users',
+  templateUrl: './list-animals-users.component.html',
+  styleUrls: ['./list-animals-users.component.css']
 })
-export class AppComponent implements OnInit  {
+export class ListAnimalsUsersComponent implements OnInit {
+
   public animals = [];
   public users = [];
 
@@ -26,4 +27,5 @@ export class AppComponent implements OnInit  {
       }
     );
   }
+
 }
